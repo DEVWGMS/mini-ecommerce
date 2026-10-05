@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ecommerce Do Wallace</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Ecommerce Do Wallace</h1>
+        <p>Catálogo de produtos</p>
+    </header>
+
+    <main>
+
+        <section class="controls">
+
+            <input type="text" id="search" placeholder="Buscar produto...">
+
+            <select id="category">
+                <option value="Todas">Todas</option>
+            </select>
+
+            <button id="btnRender">
+                Renderizar
+            </button>
+
+        </section>
+
+        <section>
+            <h2>Produtos</h2>
+
+            <div id="product-list"></div>
+        </section>
+
+        <section class="details-section">
+
+            <h2>Detalhes do produto</h2>
+
+            <div id="product-details">
+                <p>Selecione um produto para ver os detalhes.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
